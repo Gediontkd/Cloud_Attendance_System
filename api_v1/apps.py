@@ -6,3 +6,4 @@ class ApiV1Config(AppConfig):
 
     def ready(self):
         import api_v1.signals
+
