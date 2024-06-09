@@ -19,6 +19,7 @@ from django.conf.urls import url, include
 from django.contrib.auth.views import LogoutView
 from . import settings
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r"^",include("api_v1.urls")),
